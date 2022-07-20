@@ -1,0 +1,136 @@
+BODY { 
+    background: rgb(140, 164, 164);
+    }
+#entersize{
+height:40px;
+width:400px;
+    transform:translate(500px,0px);
+    font-size:30px;
+    background-color:lightblue;
+    margin-bottom:5px;
+    color:white;
+    border-style:none;
+    transition:all 0.5s;
+    border-radius:7px;
+
+}
+
+#entersize:hover{
+    height:45px;
+    width:430px;
+    color:grey;
+    transform:translate(480px,-5px);
+    background-color: antiquewhite;
+    transition:all 0.5s;
+}
+
+
+.image{
+    float:left;
+    background-color:white;
+}
+.movesandscore{
+    float:left;
+    background-color:yellow;
+    width:250px;
+    height:66px;
+    font-size:22px;
+    transform:translate(30px,100px);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:grey;
+border-radius:8px;
+}
+
+
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tile9,.tile10,.tile11,.tile12,.tile13,.tile14,.tile15,.tile16{
+    width:300px;
+    height:180px;
+   
+   border:2px solid white;
+    background:url("ass2imgf.jpg");
+   
+ display:table-cell;
+background-repeat:no-repeat;
+}
+
+.tile2{
+    background-position:-300px 0px;
+  
+}
+.tile3{
+    background-position:-600px 0px;
+}
+.tile4{
+    background-position:-900px 0px;
+}
+
+
+
+
+.tile5{
+    background-position:0px -180px;
+}
+.tile6{
+    background-position:-300px -180px;
+}
+.tile7{
+    background-position:-600px -180px;
+}
+.tile8{
+    background-position:-900px -180px;
+}
+
+
+
+
+.tile9{
+    background-position:0px -360px;
+}
+.tile10{
+    background-position:-300px -360px;
+}
+.tile11{
+    background-position:-600px -360px;
+}
+.tile12{
+    background-position:-900px -360px;
+}
+
+
+
+.tile13{
+    background-position:0px -540px;
+    
+}
+.tile14{
+    background-position:-300px -540px;
+}
+.tile15{
+    background-position:-600px -540px;
+}
+.tile16{
+    background-position:900px 540px;
+}
+#moves{
+
+    color:red;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+#timer{
+    font-size:22px;
+    color:rgb(195, 166, 130);
+   ;
+  
+
+}
+
+#minutes{
+    color:rgb(195, 166, 130);
+
+}
